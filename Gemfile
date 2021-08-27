@@ -40,9 +40,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  group :development, :test do
-    gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
-  end
+  
+  gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
+  
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry-rails'
